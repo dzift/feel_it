@@ -11294,11 +11294,7 @@ p {
   #mainNav .navbar-brand img {
     transition: height 0.3s ease-in-out;
   }
-  #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #eeb127;
-  }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
