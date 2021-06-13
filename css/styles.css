@@ -639,7 +639,7 @@ progress {
 }
 
 .container img {
-  height: 285px;
+  height: 265px;
 }
 
 @media (min-width: 576px) {
@@ -649,7 +649,7 @@ progress {
   }
   .container-sm,
   .container img {
-    height: 285px;
+    height: 265px;
   }
 }
 @media (min-width: 768px) {
