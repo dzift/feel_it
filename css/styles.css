@@ -645,7 +645,7 @@ progress {
 @media (min-width: 576px) {
   .container-sm,
   .container {
-    max-width: 540px;
+    max-width: 600px;
   }
   .container-sm,
   .container img {
@@ -11197,7 +11197,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 .page-section h2.section-heading,
 .page-section .section-heading.h2 {
@@ -11310,7 +11310,7 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 6.5rem;
   padding-bottom: 0;
   text-align: center;
   color: #fff;
