@@ -33,10 +33,7 @@ window.addEventListener('DOMContentLoaded', event => {
     var b = randomInteger(1, 32)
     var c = randomInteger(1, 32)
 
-    var html1 = `<!-- Project details-->
-    <h3 class="text-uppercase">Желаемое состояние</h3>
-    <p class="item-intro text-muted">Какого состояния мне бы хотелось достичь?</p>
-    <img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${a}).png" alt="..." />
+    var html1 = `<img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${a}).png" alt="..." />
     <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
     <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
         Почему? Какие эмоции у меня возникают?
@@ -52,10 +49,7 @@ window.addEventListener('DOMContentLoaded', event => {
         ЗАКРЫТЬ
     </button>`
 
-    var html2 = `<!-- Project details-->
-    <h3 class="text-uppercase">Желаемое состояние</h3>
-    <p class="item-intro text-muted">Какого состояния мне бы хотелось достичь?</p>
-    <img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${b}).png" alt="..." />
+    var html2 = `<img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${b}).png" alt="..." />
     <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
     <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
         Почему? Какие эмоции у меня возникают?
@@ -71,10 +65,7 @@ window.addEventListener('DOMContentLoaded', event => {
         ЗАКРЫТЬ
     </button>`
 
-    var html3 = `<!-- Project details-->
-    <h3 class="text-uppercase">Желаемое состояние</h3>
-    <p class="item-intro text-muted">Какого состояния мне бы хотелось достичь?</p>
-    <img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${c}).png" alt="..." />
+    var html3 = `<img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${c}).png" alt="..." />
     <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
     <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
         Почему? Какие эмоции у меня возникают?
