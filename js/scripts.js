@@ -1,30 +1,9 @@
-/*!
-* Start Bootstrap - Agency v7.0.4 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    // // Navbar shrink function
-    // var navbarShrink = function () {
-    //     const navbarCollapsible = document.body.querySelector('#mainNav');
-    //     if (!navbarCollapsible) {
-    //         return;
-    //     }
-    //     if (window.scrollY === 0) {
-    //         navbarCollapsible.classList.remove('navbar-shrink')
-    //     } else {
-    //         navbarCollapsible.classList.add('navbar-shrink')
-    //     }
-
-    // };
-
-    // // Shrink the navbar 
-    // navbarShrink();
+  
+    
 
     var $card1 = document.getElementById("feelCard_1");
     var $card2 = document.getElementById("feelCard_2");
@@ -34,8 +13,9 @@ window.addEventListener('DOMContentLoaded', event => {
     do {
         var b = randomInteger(1, 32)
         var c = randomInteger(1, 32)
-      } while ((b != a) && (c != a) && (b != c));
-      console.log(a,b,c)
+        console.log(a,b,c)
+      } while (a == b || c == b);
+      
 
     var html1 = `<!-- Project details-->
     <h3 class="text-uppercase">Мое состояние сейчас</h3>
@@ -99,34 +79,6 @@ window.addEventListener('DOMContentLoaded', event => {
     $card2.insertAdjacentHTML("beforeBegin", html2);
     $card3.insertAdjacentHTML("beforeBegin", html3);
     
-
-
-
-    // // Shrink the navbar when page is scrolled
-    // document.addEventListener('scroll', navbarShrink);
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
-
 });
 
 
