@@ -33,7 +33,10 @@ window.addEventListener('DOMContentLoaded', event => {
     var b = randomInteger(1, 32)
     var c = randomInteger(1, 32)
 
-    var html1 = `<img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${a}).png" alt="..." />
+    var html1 = `<!-- Project details-->
+    <h3 class="text-uppercase">Мое состояние сейчас</h3>
+    <p class="item-intro text-muted">Какое у меня сейчас состояние?</p>
+    <img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${a}).png" alt="..." />
     <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
     <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
         Почему? Какие эмоции у меня возникают?
@@ -49,23 +52,31 @@ window.addEventListener('DOMContentLoaded', event => {
         ЗАКРЫТЬ
     </button>`
 
-    var html2 = `<img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${b}).png" alt="..." />
-    <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
-    <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
-        Почему? Какие эмоции у меня возникают?
-        В каких ситуациях, которые происходили ранее были похожие эмоции?
-        Как чувствует себя персонаж на картинке? Что персонаж (или персонажи) будет делать
-        дальше?
-        Как я к этому отношусь? Вижу ли я на картинке себя?
-        В какой роли я здесь выступаю? Что я не хочу видеть? Почему?
-        Как то, что изображено на карте, говорит мне о моем запросе? </p>
-    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-        type="button">
-        <i class="fas fa-times me-1"></i>
-        ЗАКРЫТЬ
-    </button>`
+        var html2 = `<!-- Project details-->
+        <h3 class="text-uppercase">Желаемое состояние</h3>
+        <p class="item-intro text-muted">Какого состояния мне бы хотелось достичь?</p>
+        <img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${b}).png" alt="..." />
+        <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
+        <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
+            Почему? Какие эмоции у меня возникают?
+            В каких ситуациях, которые происходили ранее были похожие эмоции?
+            Как чувствует себя персонаж на картинке? Что персонаж (или персонажи) будет делать
+            дальше?
+            Как я к этому отношусь? Вижу ли я на картинке себя?
+            В какой роли я здесь выступаю? Что я не хочу видеть? Почему?
+            Как то, что изображено на карте, говорит мне о моем запросе? </p>
+        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+            type="button">
+            <i class="fas fa-times me-1"></i>
+            ЗАКРЫТЬ
+        </button>`
 
-    var html3 = `<img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${c}).png" alt="..." />
+
+
+    var html3 = ` <!-- Project details-->
+    <h3 class="text-uppercase">Что мне поможет</h3>
+    <p class="item-intro text-muted">Что мне поможет достичь желаемого состояния?</p>
+    <img class="img-fluid d-block mx-auto" src="assets/img/card/card/1 (${c}).png" alt="..." />
     <p><strong>Вспомогательные вопросы для работы с картой:</strong></p>
     <p> Что я чувствую, глядя на карту? Что на карте привлекло мое внимание?
         Почему? Какие эмоции у меня возникают?
