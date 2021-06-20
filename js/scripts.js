@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', event => {
     do {
         var b = randomInteger(1, 32)
         var c = randomInteger(1, 32)
-      } while ((b != a) && (c == a) && (b == c) );
+      } while ((b != a) && (c != a) && (b != c));
       console.log(a,b,c)
 
     var html1 = `<!-- Project details-->
