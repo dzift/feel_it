@@ -30,8 +30,12 @@ window.addEventListener('DOMContentLoaded', event => {
     var $card2 = document.getElementById("feelCard_2");
     var $card3 = document.getElementById("feelCard_3");
     var a = randomInteger(1, 32)
-    var b = randomInteger(1, 32)
-    var c = randomInteger(1, 32)
+    
+    do {
+        var b = randomInteger(1, 32)
+        var c = randomInteger(1, 32)
+      } while ((b != a) && (c == a) && (b == c) );
+      console.log(a,b,c)
 
     var html1 = `<!-- Project details-->
     <h3 class="text-uppercase">Мое состояние сейчас</h3>
